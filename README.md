@@ -4,7 +4,7 @@
 
 > a vue component for virtual number keyboard
 
-![](http://ww1.sinaimg.cn/mw690/873fcdb7gy1fs8hz3wxkbj20u01hcabp.jpg)
+<img width="200px" src="http://ww1.sinaimg.cn/mw690/873fcdb7gy1fs8hz3wxkbj20u01hcabp.jpg" />
 
 ## Build Setup
 
