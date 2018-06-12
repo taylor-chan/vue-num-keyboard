@@ -63,6 +63,7 @@ npm run build
 |方法名|说明|参数|
 |:-----:|:------:|:-----:|
 |childSubmit|键盘主button点击事件|无|
+|parentHide|收起键盘按钮点击事件|无|
 |parentResult|键盘输入的回调事件|无|
 
 
