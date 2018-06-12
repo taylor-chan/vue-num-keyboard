@@ -1,0 +1,101 @@
+// .fadeInUp {
+//   animation-duration: 0.5;
+//   -webkit-animation-duration: 0.5s;
+// }
+// .fadeOutDown {
+//   animation-duration: 0.5;
+//   -webkit-animation-duration: 0.5s;
+// }
+#iNumKeyboard {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  width: 100%;
+  font-size: 25px;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  .container-left {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .key-items {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      .hideKeyboard {
+        background: url("./image/hidekeyboard.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+      }
+      .item {
+        width: 33.33%;
+        height: 15vw;
+        // height: 50px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: solid thin #e3e3e3;
+        border-bottom: solid thin #e3e3e3;
+        &:active {
+          background-color: #e5e5e5;
+        }
+      }
+      &:nth-child(1) {
+        border-top: solid thin #e3e3e3;
+      }
+    }
+  }
+  .container-right {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border-top: solid thin #e3e3e3;
+    .item {
+      width: 100%;
+      // height: 100px;
+      height: 30vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: solid thin #e3e3e3;
+      font-size: 20px;
+      &:nth-child(1) {
+        background: url("./image/backspace.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+      }
+      &:nth-child(2) {
+        color: #fff;
+        background-color: #64aeeb;
+        flex-grow: 2;
+        border-bottom: solid thin #64aeeb;
+      }
+      img {
+        width: 25px;
+      }
+      &:active {
+        background-color: #64aeeb;
+      }
+    }
+  }
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio:3) {
+  #iNumKeyboard {
+    padding-bottom: 34px;
+  }
+}
