@@ -24,11 +24,9 @@ npm run build
 
 ## source path
 
-**iNumKeyboard component path**
-`src/base/iNumKeyboard`
+- **iNumKeyboard component path：**`src/base/iNumKeyboard`
 
-**demo component path**
-`src/demo.vue`  
+- **demo component path：**`src/demo.vue`  
 
 
 ## code example
